@@ -1,0 +1,537 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio professionnel de Didier Yankam, Senior Network and Security Engineer, spécialisé en architecture réseau, cybersécurité et Azure.">
+<title>Didier Yankam | Network & Security Engineer</title>
+<style>
+:root {
+  --bg:#091321;
+  --panel:#122137;
+  --panel2:#182b43;
+  --blue:#60a5fa;
+  --cyan:#38bdf8;
+  --text:#e8eef8;
+  --muted:#aab8ca;
+  --border:#293e59;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:Arial,sans-serif;
+  line-height:1.75;
+}
+a{text-decoration:none;color:var(--blue)}
+header{
+  padding:20px 7%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  background:#091321;
+  border-bottom:1px solid var(--border);
+}
+.logo{font-weight:bold;font-size:19px;letter-spacing:1px}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{font-size:13px;color:var(--muted)}
+nav a:hover{color:var(--cyan)}
+.hero{
+  padding:100px 9%;
+  background:radial-gradient(circle at 80% 20%,#21466e,#122137 45%,#091321 85%);
+}
+.eyebrow{color:var(--cyan);font-weight:bold;letter-spacing:2px;font-size:12px}
+h1{font-size:clamp(38px,7vw,65px);line-height:1.15;margin:20px 0}
+.hero h2{color:#93c5fd;font-size:25px;font-weight:normal}
+.hero p{max-width:780px;color:var(--muted);margin:25px 0}
+.btn{
+  display:inline-block;background:#2563eb;color:white;
+  padding:12px 23px;border-radius:7px;margin:8px 8px 0 0;
+}
+.btn.secondary{background:transparent;border:1px solid #52749a}
+section{padding:70px 9%;scroll-margin-top:20px}
+.section-label{color:var(--cyan);font-size:12px;letter-spacing:2px;font-weight:bold}
+.section-title{font-size:31px;margin:8px 0 25px}
+.intro{max-width:900px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{
+  background:var(--panel);border:1px solid var(--border);
+  padding:24px;border-radius:11px;
+}
+.card h3{color:#93c5fd;margin-bottom:10px}
+.card p{color:var(--muted);font-size:14px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.tags span{
+  background:#193653;color:#bfdbfe;
+  border:1px solid #315778;padding:4px 10px;
+  border-radius:5px;font-size:12px;
+}
+.experience{
+  background:var(--panel);border:1px solid var(--border);
+  border-left:4px solid #3b82f6;border-radius:10px;
+  padding:27px;margin:30px 0;
+}
+.experience h3{font-size:22px;color:#93c5fd}
+.experience h4{font-weight:normal;color:var(--cyan);margin:5px 0 17px;font-size:14px}
+.experience p{font-size:14px;color:var(--muted);margin:10px 0}
+.experience h5{font-size:15px;color:#bfdbfe;margin:20px 0 8px}
+.experience ul{padding-left:22px;color:#cbd5e1;font-size:14px}
+.experience li{margin:6px 0}
+.cert{margin-bottom:20px}
+.cert h3{color:#93c5fd}
+footer{text-align:center;padding:35px;background:#050b14;color:var(--muted);font-size:13px}
+@media(max-width:700px){
+ header{justify-content:center;gap:15px}
+ nav{justify-content:center}
+ .hero{padding:65px 7%}
+ section{padding:50px 7%}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">DY | NETWORK & SECURITY</div>
+<nav>
+<a href="#profil">Profil</a>
+<a href="#expertise">Expertise</a>
+<a href="#experiences">Expériences</a>
+<a href="#certifications">Certifications</a>
+<a href="#formation">Formation</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+
+<div class="hero">
+<div class="eyebrow">NETWORK ENGINEERING · CYBERSECURITY · CLOUD</div>
+<h1>Didier Bolivar<br>Yankam Nyandja</h1>
+<h2>Senior Network & Security Engineer</h2>
+<p>
+Ingénieur réseaux et sécurité spécialisé dans la conception,
+l'intégration et la sécurisation des infrastructures IT.
+Expertise opérationnelle en environnements Cisco, Fortinet,
+Check Point, Palo Alto et Microsoft Azure.
+Expérience dans les télécommunications, les infrastructures
+d'entreprise et les réseaux multisites.
+</p>
+<a class="btn" href="#experiences">Découvrir mes missions</a>
+<a class="btn secondary" href="#contact">Me contacter</a>
+</div>
+
+<section id="profil">
+<div class="section-label">PROFIL PROFESSIONNEL</div>
+<h2 class="section-title">Architecture, infrastructure et sécurité réseau</h2>
+<p class="intro">
+Mon parcours professionnel m'a conduit à intervenir sur des
+infrastructures réseau complexes et des environnements de production
+exigeants.
+<br><br>
+Mes domaines d'intervention couvrent l'ingénierie des flux,
+l'administration des équipements de sécurité, la conception
+d'architectures réseau, le déploiement de solutions VPN,
+la supervision et le maintien en conditions opérationnelles.
+<br><br>
+J'interviens également sur des projets d'intégration SASE et SD-WAN,
+de sécurisation des accès, d'authentification multifactorielle
+et d'infrastructures réseau dans Microsoft Azure.
+</p>
+</section>
+
+<section id="expertise">
+<div class="section-label">DOMAINES DE COMPÉTENCE</div>
+<h2 class="section-title">Expertises techniques</h2>
+<div class="grid">
+
+<div class="card">
+<h3>Architecture réseau</h3>
+<p>Conception et évolution des infrastructures LAN, WAN et Backbone. Routage, commutation, segmentation et architectures multisites.</p>
+<div class="tags"><span>OSPF</span><span>BGP</span><span>MPLS</span><span>IPv4</span><span>IPv6</span><span>VLAN</span></div>
+</div>
+
+<div class="card">
+<h3>Cybersécurité</h3>
+<p>Administration des firewalls, politiques de sécurité, analyse des flux, VPN, contrôle des accès et sécurisation des infrastructures.</p>
+<div class="tags"><span>Fortinet</span><span>Check Point</span><span>Palo Alto</span><span>ACL</span><span>NAT</span></div>
+</div>
+
+<div class="card">
+<h3>SASE & SD-WAN</h3>
+<p>Intégration de solutions de connectivité sécurisée et déploiement d'architectures SASE et SD-WAN.</p>
+<div class="tags"><span>CATO</span><span>Fortinet SD-WAN</span><span>VPN</span></div>
+</div>
+
+<div class="card">
+<h3>Cloud Networking</h3>
+<p>Conception et administration des infrastructures réseau Azure, connectivité hybride et sécurité des services cloud.</p>
+<div class="tags"><span>Azure VNet</span><span>Azure Firewall</span><span>VPN</span><span>ExpressRoute</span></div>
+</div>
+
+<div class="card">
+<h3>Datacenter</h3>
+<p>Interventions sur les infrastructures de datacenter, équipements Cisco Nexus, VLAN, Port Channels et architectures de commutation.</p>
+<div class="tags"><span>Cisco Nexus</span><span>NX-OS</span><span>STP</span><span>LACP</span><span>VPC</span></div>
+</div>
+
+<div class="card">
+<h3>Identity & Access Security</h3>
+<p>Gestion des politiques d'accès, authentification multifactorielle et administration Cisco ISE.</p>
+<div class="tags"><span>Cisco ISE</span><span>MFA</span><span>FortiAuthenticator</span></div>
+</div>
+
+</div>
+</section>
+
+<section id="experiences">
+<div class="section-label">PARCOURS PROFESSIONNEL</div>
+<h2 class="section-title">Expériences & missions techniques</h2>
+<p class="intro">
+Des missions réalisées auprès d'acteurs majeurs des télécommunications,
+du transport et des infrastructures d'entreprise.
+</p>
+
+<div class="experience">
+<h3>Neurones IT – Transavia</h3>
+<h4>Ingénieur Réseaux & Sécurité / Ingénieur Flux | Mars 2024 – Aujourd'hui</h4>
+<p>
+Intervention sur les infrastructures réseau et sécurité de Transavia.
+Responsabilités couvrant l'administration des firewalls, la gestion
+des flux, l'intégration des solutions de sécurité et l'évolution
+des architectures réseau.
+</p>
+
+<h5>1. Administration des firewalls et sécurité des flux</h5>
+<ul>
+<li>Gestion des firewalls et ouverture des flux réseau à travers l'infrastructure Transavia.</li>
+<li>Création, revue et remédiation des règles de sécurité.</li>
+<li>Création et gestion des profils de sécurité.</li>
+<li>Mise en place et gestion des VPN avec les partenaires.</li>
+<li>Mise à jour des systèmes d'exploitation et migration des appliances.</li>
+<li>Intégration de FortiManager et FortiAnalyzer dans la Security Fabric.</li>
+</ul>
+
+<h5>2. Authentification et contrôle des accès</h5>
+<ul>
+<li>Intégration de FortiAuthenticator pour l'authentification multifactorielle.</li>
+<li>Intégration du MFA avec les switches Cisco et Aruba.</li>
+<li>Administration de Cisco Identity Services Engine (ISE).</li>
+<li>Création de nouvelles policies.</li>
+<li>Installation de l'Upgrade Readiness Tool (URT).</li>
+<li>Patching et upgrade du système ISE.</li>
+<li>Installation et reconstruction de Cisco ISE from scratch.</li>
+</ul>
+
+<h5>3. Architecture SASE, SD-WAN et Cloud</h5>
+<ul>
+<li>Mise en place d'un environnement SASE via CATO.</li>
+<li>Intégration de la solution SASE CATO.</li>
+<li>Intégration et configuration du SD-WAN Fortinet sur différents sites.</li>
+<li>Migration des firewalls Fortinet arrivés en fin de vie.</li>
+<li>Création de clusters Fortinet dans Microsoft Azure.</li>
+</ul>
+
+<h5>4. Exploitation et livrables</h5>
+<ul>
+<li>Gestion des escalades N2/N3 concernant la section réseau.</li>
+<li>Application des procédures de production et guides opérationnels.</li>
+<li>Mise en place de règles d'automatisation.</li>
+<li>Envoi de rapports journaliers et hebdomadaires.</li>
+<li>Production de reportings réseau et de schémas d'architecture LLD.</li>
+</ul>
+
+<div class="tags"><span>Fortinet</span><span>FortiGate</span><span>FortiManager</span><span>FortiAnalyzer</span><span>FortiAuthenticator</span><span>Cisco ISE</span><span>Aruba</span><span>CATO</span><span>SD-WAN</span><span>Azure</span></div>
+</div>
+
+<div class="experience">
+<h3>Devoteam – Vinci Autoroutes / Cofiroute</h3>
+<h4>Ingénieur Réseaux & Sécurité / Ingénieur Flux | Avril 2022 – Novembre 2023</h4>
+<p>
+Participation au maintien en conditions opérationnelles des
+infrastructures réseau de Vinci Autoroutes, avec des missions
+d'administration, de sécurisation, de supervision et de déploiement
+sur des sites distants et des environnements datacenter.
+</p>
+
+<h5>1. Administration réseau et sécurité</h5>
+<ul>
+<li>Ouverture des flux réseau à travers l'infrastructure Cofiroute.</li>
+<li>Installation de nouveaux équipements réseau : routeurs et switches.</li>
+<li>Création de nouvelles zones réseau et règles de sécurité via FortiManager ou directement sur les équipements.</li>
+<li>Création de groupes utilisateurs, policies et Device Admin Policy Sets dans Cisco ISE.</li>
+<li>Configuration et mise en production des équipements réseau et sécurité.</li>
+<li>Gestion des liaisons WAN avec les opérateurs OBS et CELESTE.</li>
+</ul>
+
+<h5>2. Supervision et exploitation</h5>
+<ul>
+<li>Analyse des incidents réseau et sécurité et traitement des incidents N1 et N2.</li>
+<li>Création et suivi des tickets EasyVista.</li>
+<li>Supervision réseau et analyse des logs via ORION.</li>
+<li>Création de règles d'alertes par email dans Orion.</li>
+<li>Création de cartes dans Network Atlas et intégration de nouveaux équipements.</li>
+<li>Mise en place du téléchargement automatique journalier des configurations des équipements.</li>
+<li>Supervision des seuils d'utilisation des liaisons opérateurs.</li>
+<li>Maintenance, supervision et résolution d'incidents N1, N2 et N3 sur les sites distants.</li>
+</ul>
+
+<h5>3. Datacenter et déploiement d'infrastructures</h5>
+<ul>
+<li>Interventions techniques sur deux datacenters.</li>
+<li>Création de Port Channels et de VLAN.</li>
+<li>Création et propagation de nouveaux réseaux.</li>
+<li>Création de Port Profiles et de VPC.</li>
+<li>Mise à jour des équipements Cisco Nexus.</li>
+<li>Déploiement de nouveaux réseaux dans le cœur de Cofiroute.</li>
+<li>Pilotage des interventions techniques et des techniciens pour l'infrastructure réseau des nouvelles gares.</li>
+<li>Gestion, configuration et mise en production des équipements LAN, routeurs, switches et firewalls.</li>
+<li>Mise en place de VPN et création de règles sur les firewalls.</li>
+</ul>
+
+<h5>4. Livrables</h5>
+<ul>
+<li>Reporting réseau.</li>
+<li>Schémas d'architecture détaillés LLD.</li>
+</ul>
+
+<div class="tags"><span>Fortinet</span><span>Check Point</span><span>Cisco</span><span>Nexus</span><span>ISE</span><span>ORION</span><span>Network Atlas</span><span>EasyVista</span><span>OSPF</span><span>BGP</span><span>MPLS</span><span>WLAN</span></div>
+</div>
+
+<div class="experience">
+<h3>Umanis – Orange</h3>
+<h4>Ingénieur Réseaux & Sécurité / Ingénieur Flux | Février 2020 – Mars 2022</h4>
+<p>
+Intervention dans les processus d'ingénierie et de gestion des flux
+réseau d'Orange. Activité couvrant l'analyse des demandes clients,
+la définition des chemins techniques, la coordination des
+déploiements et la sécurisation des flux.
+</p>
+
+<h5>1. Pilotage des demandes unitaires</h5>
+<ul>
+<li>Pilotage de bout en bout des demandes unitaires.</li>
+<li>Garantie des engagements liés aux solutions techniques, aux ressources et aux délais.</li>
+<li>Accompagnement du client depuis le dépôt de la demande jusqu'à la recette technique.</li>
+<li>Coordination et relance des différents intervenants du processus.</li>
+<li>Organisation de la recette des flux avec le client.</li>
+<li>Pilotage des investigations en cas de dysfonctionnement jusqu'à la mise en service du flux.</li>
+</ul>
+
+<h5>2. Ingénierie des flux</h5>
+<ul>
+<li>Prise en charge des demandes via un workflow de gestion des flux.</li>
+<li>Analyse et qualification des demandes clients.</li>
+<li>Conseil au client lorsque le besoin technique doit être précisé, notamment pour l'utilisation des services communs d'infrastructure (SCI).</li>
+<li>Vérification de la cohérence des demandes avec l'urbanisme de l'infrastructure et les politiques de sécurité.</li>
+<li>Définition du chemin réseau et des équipements traversés : routeurs, firewalls, Reverse Proxy, Load Balancers et autres composants.</li>
+<li>Préparation des actions nécessaires à l'ouverture et au déploiement des flux.</li>
+<li>Transmission des demandes aux équipes de déploiement DIF ou hors DIF.</li>
+<li>Investigations sur les problématiques de firewall, Load Balancer, proxy et routage.</li>
+</ul>
+
+<h5>3. Déploiement et amélioration continue</h5>
+<ul>
+<li>Configuration des règles de sécurité pour l'ouverture des flux sur Fortinet FortiGate et Palo Alto.</li>
+<li>Maintenance de la base de connaissances des processus et des acteurs flux des autres entités Orange.</li>
+<li>Suivi de la roadmap et amélioration continue des open-lists (flux pré-ouverts dans les firewalls).</li>
+<li>Capitalisation sur les projets menés et évolution des méthodologies de gestion de projet lorsque nécessaire.</li>
+</ul>
+
+<div class="tags"><span>TCP/IP</span><span>OSPF</span><span>BGP</span><span>Fortinet</span><span>Palo Alto</span><span>F5 LTM</span><span>ADC</span><span>Alcatel</span><span>VLAN</span><span>NAT</span></div>
+</div>
+
+<div class="experience">
+<h3>Rhon'Telecom – SFR</h3>
+<h4>Ingénieur Réseaux IP / Administrateur Systèmes | Août 2019 – Décembre 2019</h4>
+<p>
+Intervention sur les réseaux d'accès et le Backbone IP,
+avec des missions de déploiement, de provisioning et d'exploitation
+des infrastructures.
+</p>
+<ul>
+<li>Déploiement d'équipements dans les réseaux d'accès et Backbone IP.</li>
+<li>Provisioning des équipements sur les outils du système d'information et supervision OMC.</li>
+<li>Production des dossiers d'ingénierie détaillée.</li>
+<li>Contribution à la performance et à la disponibilité des infrastructures de production.</li>
+<li>Participation à l'exploitation et à la maintenance du réseau IP.</li>
+<li>Définition et entretien du référentiel technique de production.</li>
+<li>Application des procédures de production et guides opérationnels.</li>
+</ul>
+<div class="tags"><span>OSPF</span><span>BGP</span><span>TCP/IP</span><span>Ericsson</span><span>Huawei</span><span>Redback</span><span>Alcatel</span><span>Cisco</span><span>VLAN</span></div>
+</div>
+
+<div class="experience">
+<h3>Deexxys Cameroun</h3>
+<h4>Ingénieur Réseaux IP | Février 2017 – Juillet 2018</h4>
+<p>Gestion et administration des infrastructures informatiques.</p>
+<ul>
+<li>Gestion du parc informatique.</li>
+<li>Installation, configuration et maintenance des routeurs et commutateurs.</li>
+<li>Installation et configuration des serveurs.</li>
+</ul>
+<div class="tags"><span>Réseaux IP</span><span>Routeurs</span><span>Switches</span><span>Serveurs</span></div>
+</div>
+
+<div class="experience">
+<h3>TBC / Tigo – Sénégal</h3>
+<h4>Ingénieur Réseaux Télécoms | Septembre 2016 – Décembre 2016</h4>
+<ul>
+<li>Audit des réseaux mobiles.</li>
+<li>Réalisation de campagnes de Drive Test sur le territoire sénégalais.</li>
+</ul>
+<div class="tags"><span>Réseaux mobiles</span><span>Drive Test</span><span>Audit télécoms</span></div>
+</div>
+
+<div class="experience">
+<h3>CAMTEL – Cameroun</h3>
+<h4>Ingénieur Réseaux Télécoms | Janvier 2013 – Juillet 2014</h4>
+<p>Expérience professionnelle en ingénierie des réseaux télécoms.</p>
+<p>Les missions détaillées ne sont pas renseignées dans le CV disponible.</p>
+</div>
+
+</section>
+
+<section id="certifications">
+<div class="section-label">CERTIFICATIONS PROFESSIONNELLES</div>
+<h2 class="section-title">Certifications & qualifications</h2>
+<div class="grid">
+
+<div class="card cert">
+<h3>Microsoft</h3>
+<ul>
+<li>Azure Fundamentals – AZ-900</li>
+<li>Azure Administrator Associate – AZ-104</li>
+<li>Azure Network Engineer Associate – AZ-700</li>
+</ul>
+</div>
+
+<div class="card cert">
+<h3>Cisco</h3>
+<ul>
+<li>CCNP Enterprise and Infrastructure</li>
+<li>CCNA Switching and Routing</li>
+<li>Data Center Core Specialist</li>
+<li>Enterprise Advanced Infrastructure Implementation Specialist</li>
+<li>Enterprise Core Specialist</li>
+</ul>
+</div>
+
+<div class="card cert">
+<h3>Fortinet</h3>
+<ul>
+<li>FCSS Secure Access Service Edge</li>
+<li>FCSS Network Security</li>
+<li>NSE 7 SD-WAN 7.2</li>
+<li>Fortinet Enterprise Firewall 7.2 Administrator</li>
+<li>FCP Security Operations</li>
+<li>FCP FortiAnalyzer Analyst 7.4</li>
+<li>FCP Network Security</li>
+<li>FCP FortiAnalyzer Administrator</li>
+<li>FCP FortiGate 7.2 Administrator</li>
+<li>NSE 2 et NSE 1 Network Security Associate</li>
+</ul>
+</div>
+
+<div class="card cert">
+<h3>Palo Alto Networks</h3>
+<ul>
+<li>PCNSA – Network Security Administrator</li>
+</ul>
+</div>
+
+<div class="card cert">
+<h3>Check Point</h3>
+<ul>
+<li>CCSA – Check Point Certified Security Administration</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section id="formation">
+<div class="section-label">FORMATION ACADÉMIQUE</div>
+<h2 class="section-title">Parcours de formation</h2>
+<div class="grid">
+
+<div class="card">
+<h3>Télécom Paris</h3>
+<p>Mastère Spécialisé en Conception et Architecture de Réseau</p>
+<p>2018 – 2019</p>
+</div>
+
+<div class="card">
+<h3>ESMT – Dakar, Sénégal</h3>
+<p>Master professionnel en Radiocommunications et Services</p>
+<p>2014 – 2016</p>
+</div>
+
+<div class="card">
+<h3>ENSPT – Yaoundé, Cameroun</h3>
+<p>Ingénieur des Travaux de Télécommunications</p>
+<p>2009 – 2012</p>
+</div>
+
+</div>
+</section>
+
+<section id="competences">
+<div class="section-label">ENVIRONNEMENTS TECHNIQUES</div>
+<h2 class="section-title">Compétences techniques complémentaires</h2>
+<div class="card">
+<h3>Réseaux & Datacenter</h3>
+<div class="tags">
+<span>OSPF</span><span>EIGRP</span><span>BGP</span><span>IPv6</span>
+<span>VPN</span><span>GRE</span><span>IPSec</span><span>DMVPN</span>
+<span>MPLS</span><span>SD-WAN</span><span>HSRP</span><span>VRRP</span>
+<span>GLBP</span><span>DHCP</span><span>NTP</span><span>Multicast</span>
+<span>PIM</span><span>Cisco Nexus</span><span>NX-OS</span><span>VXLAN</span>
+<span>BGP EVPN</span><span>VPC</span><span>VDC</span><span>LACP</span>
+</div>
+<h3 style="margin-top:25px">Sécurité</h3>
+<div class="tags">
+<span>Firewall</span><span>FortiOS</span><span>PAN-OS</span>
+<span>Check Point</span><span>IPS</span><span>VPN</span>
+<span>Web Filtering</span><span>APP-ID</span><span>User-ID</span>
+<span>VDOMs</span><span>Security Policies</span><span>High Availability</span>
+</div>
+<h3 style="margin-top:25px">Microsoft Azure Networking</h3>
+<div class="tags">
+<span>Virtual Networks</span><span>IP Addressing</span>
+<span>Network Routing</span><span>VPN Site-to-Site</span>
+<span>VPN Point-to-Site</span><span>ExpressRoute</span>
+<span>Virtual WAN</span><span>Load Balancer</span>
+<span>Traffic Manager</span><span>Application Gateway</span>
+<span>Front Door</span><span>Private Link</span>
+<span>Private Endpoints</span><span>Azure Firewall</span>
+<span>Firewall Manager</span><span>WAF</span>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="section-label">CONTACT PROFESSIONNEL</div>
+<h2 class="section-title">Échangeons sur vos projets</h2>
+<div class="card">
+<h3>Didier Yankam Nyandja</h3>
+<p>Senior Network & Security Engineer</p>
+<p style="margin-top:15px">Email : <a href="mailto:yankamdidier@yahoo.fr">yankamdidier@yahoo.fr</a></p>
+<p>Téléphone : <a href="tel:+33605850654">+33 6 05 85 06 54</a></p>
+<p>Localisation : Île-de-France, France</p>
+<p style="margin-top:12px">Mobilité géographique : Île-de-France.</p>
+</div>
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 Didier Yankam Nyandja</p>
+<p>Senior Network & Security Engineer | Network Architecture | Cybersecurity | Cloud</p>
+</footer>
+
+</body>
+</html>
