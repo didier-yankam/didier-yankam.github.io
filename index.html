@@ -7,23 +7,44 @@
 <meta name="description" content="Portfolio professionnel de Didier Yankam, Senior Network and Security Engineer, spécialisé en architecture réseau, cybersécurité et Azure.">
 <title>Didier Yankam | Network & Security Engineer</title>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 :root {
-  --bg:#091321;
-  --panel:#122137;
-  --panel2:#182b43;
-  --blue:#60a5fa;
-  --cyan:#38bdf8;
-  --text:#e8eef8;
-  --muted:#aab8ca;
-  --border:#293e59;
+  --bg: #091321;
+  --panel: #14243B;
+  --panel2: #1B3452;
+  --blue: #438BFF;
+  --cyan: #35D6E8;
+  --text: #F1F5FC;
+  --muted: #B8C7DA;
+  --border: #345477;
+  --violet: #9275FF;
+  --gold: #F4B942;
 }
+
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{
   background:var(--bg);
   color:var(--text);
-  font-family:Arial,sans-serif;
+  font-family:'Inter',sans-serif;
   line-height:1.75;
+}
+  h1, h2, h3, h4, .logo {
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-shadow: 0 0 25px rgba(67,139,255,0.25);
+}
+
+h2 {
+  color: var(--blue);
+}
+
+h3 {
+  color: var(--cyan);
 }
 a{text-decoration:none;color:var(--blue)}
 header{
@@ -69,6 +90,38 @@ section{padding:70px 9%;scroll-margin-top:20px}
   border:1px solid #315778;padding:4px 10px;
   border-radius:5px;font-size:12px;
 }
+  
+/* EFFETS LUMINEUX */
+.hero {
+  box-shadow: inset 0 0 100px rgba(67,139,255,0.08);
+}
+
+.card, .experience {
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease,
+              border-color 0.3s ease;
+}
+
+.card:hover, .experience:hover {
+  transform: translateY(-5px);
+  border-color: var(--cyan);
+  box-shadow: 0 0 22px rgba(53,214,232,0.16);
+}
+
+.btn {
+  box-shadow: 0 0 15px rgba(67,139,255,0.22);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  box-shadow: 0 0 25px rgba(53,214,232,0.45);
+  transform: translateY(-2px);
+}
+
+.tags span {
+  box-shadow: 0 0 8px rgba(67,139,255,0.10);
+}
+  
 .experience{
   background:var(--panel);border:1px solid var(--border);
   border-left:4px solid #3b82f6;border-radius:10px;
